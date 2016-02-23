@@ -15,13 +15,6 @@
     "url": "https://github.com/ParsePlatform/ParseReact"
   },
   "bugs": "https://github.com/ParsePlatform/ParseReact/issues",
-  "files": [
-    "index.js",
-    "react-native.js",
-    "lib/",
-    "LICENSE",
-    "README.md"
-  ],
   "browser": {
     "react-native": false
   },
