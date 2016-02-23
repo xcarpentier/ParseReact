@@ -66,7 +66,7 @@ class MutationBatch {
     }
     this._dispatched = true;
     var requests = this._requests.map((req) => {
-      var copy = { method: req.method, path: req.path };
+      var copy = { method: req.method, path: '/' + req.path };
       if (req.data) {
         copy.body = req.data;
       }
