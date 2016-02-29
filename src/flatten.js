@@ -34,7 +34,8 @@ function mappedFlatten(el) {
       objectId: el.id
     }
   }
-  return flatten(el);
+  //return flatten(el);
+  return el;
 }
 
 /**
